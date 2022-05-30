@@ -168,7 +168,7 @@
                       <InArgument x:TypeArguments="x:Int32">[intIndex+1]</InArgument>
                     </Assign.Value>
                   </Assign>
-                  <ui:MoveOutlookMessage Account="{x:Null}" sap2010:Annotation.AnnotationText="Moves the Processed Folders and will require one to manually reverse the mails to mainInbox, else the the subsequent Bot Execution will result in empty workbook." DisplayName="Move Outlook Mail Message" sap:VirtualizedContainerService.HintSize="410,172" sap2010:WorkflowViewState.IdRef="MoveOutlookMessage_1" MailFolder="[strProcessedFolder]" MailMessage="[mail]">
+                  <ui:MoveOutlookMessage Account="{x:Null}" sap2010:Annotation.AnnotationText="Moves the Processed emails to the subfolder(ProcessedFolder) and will require one to manually reverse the mails to mainInbox, else the  subsequent Bot Execution will result in empty workbook." DisplayName="Move Outlook Mail Message" sap:VirtualizedContainerService.HintSize="410,172" sap2010:WorkflowViewState.IdRef="MoveOutlookMessage_1" MailFolder="[strProcessedFolder]" MailMessage="[mail]">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
